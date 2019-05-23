@@ -22,6 +22,7 @@ b. `source .env/bin/activate` - this activates the environement *So this is all 
 
 c.  Install module - `pip3 install -r requirments.txt` (requirments.txt is like package.json)
 
+
 ##### Starting from scratch?
 
 1. ```mkdir flask-app```
@@ -37,7 +38,9 @@ pip3 install flask-restful peewee flask psycopg2 flask_login flask_cors
 ```
 5.  Add them to `requirements.txt` - `pip3 freeze > requirements.txt`
 
+### Leaving a Virtual Env
 
+- type `deactivate` in the terminal window
 
 ### Setting up database
 
