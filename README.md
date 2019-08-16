@@ -42,6 +42,10 @@ pip3 install flask-restful peewee flask psycopg2 flask_login flask_cors
 
 - type `deactivate` in the terminal window
 
+### Entering a file that has a virtual environment
+
+- ```source .env/bin/activate```
+
 ### Setting up database
 
 *[peewee](http://docs.peewee-orm.com/en/latest/)* - is our orm (comparable to mongoose) gives us the power to talk to a sql database - LOOK AT THE DOCS!!!
